@@ -32,10 +32,11 @@ body {
     align-items: center;
 }
 .icon {
-    margin-right: 15px;
+    filter: invert(100%) sepia(4%) saturate(758%) hue-rotate(269deg) brightness(118%) contrast(100%);;
 }
 .img-color {
     filter: grayscale(100%);
     background-color: darkslateblue;
+    mix-blend-mode: screen;
+    mix-blend-mode: color-burn;
   }
-  
