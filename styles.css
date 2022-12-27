@@ -1,0 +1,41 @@
+/* common nav style */
+
+.navigation-wrapper{
+
+    height: 190px;
+    background-color: darkslateblue;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+.contact-hours-wrapper {
+
+    color: rgb(255, 0, 153);
+}
+
+#adress-wrapper {
+
+    color: red;
+}
+
+/* common styles */
+
+body {
+
+    margin: auto;
+}
+.left-colom {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin-right: 15px;
+}
+.img-color {
+    filter: grayscale(100%);
+    background-color: darkslateblue;
+  }
+  
